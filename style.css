@@ -1,0 +1,28 @@
+#titles{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#first_pokemon, #VS, #second_pokemon{
+    font-size: 40px;
+    font-family: Helvetica;
+    color: rgb(41, 97, 250);
+}
+
+#images{
+    display: flex;
+}
+
+img{
+    border: 2px solid black;
+    width: 250px;
+    height: auto;
+}
+
+#Pokemon1Image{
+    margin-left: 130px;
+}
+#Pokemon2Image{
+    margin-left: 575px;
+}
