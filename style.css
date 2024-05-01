@@ -10,10 +10,6 @@
     color: rgb(41, 97, 250);
 }
 
-#images_and_strenght{
-    display: flex;
-}
-
 img{
     border-radius: 10px;
     border: 3px solid black;
@@ -34,6 +30,25 @@ img{
     display: flex;
 }
 
+#images_and_information{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Pokemon1Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Pokemon2Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 500px;
+}
+
 #first_pokemon_strenght{
     font-size: 25px;
     font-family: Helvetica;
@@ -46,4 +61,14 @@ img{
     margin-left: 275px;
 }
 
+#first_pokemon_speed{
+    font-size: 25px;
+    font-family: Helvetica;
+    margin-left: 15px;
+}
 
+#second_pokemon_speed{
+    font-size: 25px;
+    font-family: Helvetica;
+    margin-left: 275px;
+}
